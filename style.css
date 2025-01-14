@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Images */
+img {
+  width: 150px; /* Ajuste la largeur selon tes besoins */
+  height: 150px; /* Maintient une forme carrée */
+  border-radius: 50%; /* Garde l'image ronde */
+  object-fit: cover; /* Assure que l'image est bien recadrée */
+  margin: 20px auto; /* Centrage vertical si nécessaire */
+}
+
+/* Corps du site */
+body {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Times New Roman", serif;
+  background-color: #c3d4c7;
+  color: #d4c3d0;
+}
+
+/* Titres */
+h1 {
+  padding: 20px;
+  margin: 20px;
+  display: block;
+  color: black; /* Correct */
+  font-size:30px;
+}
+
+h2 {
+  padding: 20px;
+  margin: 30px;
+  display: block;
+  color: white; /* Correct */
+  font-size: 20px;
+}
+
+h3 {
+  padding: 20px;
+  margin: 30px;
+}
+
+h4 {
+color: black;;
+}
+
+h5  {
+color: green;
+}
+
+p {
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  color: black;
+}
+
+/* Ligne horizontale */
+hr {
+  border: none;
+  height: 2px;
+  background-color: #7d9a84;
+  margin: 20px 0;
+}
+
+/* En-tête */
+header {
+  background-color: #7d9a84;
+  color: white;
+  text-align: center;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #e91e63;
+  text-decoration: underline;
+}
+
+/* Pied de page */
+footer {
+  background-color: #7d9a84;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .social-links a {
+  margin: 0 10px;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer .social-links a:hover {
+  color: #7d9a84; /* Correct */
+}
+
+/* Formulaire */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #7d9a84;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #c3d4c7;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7d9a84; /* Changement pour un effet plus visible */
+color: white;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+}
+
+label {
+  font-weight: bold;
+ color: black;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #7d9a84;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #7d9a84;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
